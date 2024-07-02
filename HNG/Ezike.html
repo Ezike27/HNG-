@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Static Website</title>
-    <link rel="stylesheet" href="/Ezike.css">
+    <link rel="stylesheet" href="Ezike.css">
 </head>
 <body>
     <header>
@@ -13,14 +13,31 @@
     <main>
         <section>
             <h2>About Me</h2>
-            <p>Name: Ezike ChukwuletamT</p>
+            <p>Name: Ezike Chukwuletam</p>
             <p>Username: Ezike</p>
             <p>Email: ezikeletam@gmail.com</p>
         </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section>
+            <h2>HNG Internship</h2>
+            <p>This website is part of my portfolio for the HNG Internship.</p>
+            <p>Learn more about HNG Internship <a href="https://hng.tech" target="_blank">here</a>.</p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 EZIKE</p>
+        <p>&copy; 2024 Ezike Chukwuletam</p>
     </footer>
-    <script src="/ezike.js"></script>
+    <script src="ezike.js"></script>
 </body>
 </html>
